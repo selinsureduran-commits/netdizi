@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8eef2;
+    color: #222;
+}
+
+header {
+    background: #f5ddE5;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.kategori-alani {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.kategori-alani button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kategori-alani button:hover {
+    background-color: #555;
+}
+
+#icerik-alani {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.kart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.kart h2 {
+    margin-bottom: 10px;
+}
+.kart:hover {
+    transform: translateY(-8px);
+}
+
+.tur {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.aciklama {
+    margin-bottom: 10px;
+}
+
+.puan {
+    margin-bottom: 15px;
+    color: #b8860b;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding: 8px;
+    resize: none;
+}
+
+.yorum-btn {
+    margin-top: 8px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yorum-listesi {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.arama-alani {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.afis {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.arama-alani input {
+    width: 60%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.tema-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    color: #222;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark header {
+    background-color: #000;
+}
+
+body.dark .kart {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark .tur {
+    color: #ccc;
+}
+
+body.dark textarea {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark .arama-alani input {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #555;
+}
+.logo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+.favori-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #ffefef;
+}
+
+.favori-btn:hover {
+    opacity: 0.9;
+}

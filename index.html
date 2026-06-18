@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Film ve Dizi Yorumları</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+    <img src="logo.png" alt="Netdizi Logo" class="logo">
+
+    <p>Film ve dizileri keşfet, yorumla ve favorilerine ekle.</p>
+
+    <button onclick="karanlikMod()" class="tema-btn">
+        🌙 Karanlık Mod
+    </button>
+
+</header>
+<section class="kategori-alani">
+    <button onclick="filtrele('Tümü')">Tümü</button>
+    <button onclick="filtrele('Film')">Film</button>
+    <button onclick="filtrele('Dizi')">Dizi</button>
+     
+    <button onclick="filtrele('Aksiyon')">Aksiyon</button>
+    <button onclick="filtrele('Komedi')">Komedi</button>
+<button onclick="filtrele('Dram')">Dram</button>
+<button onclick="filtrele('Bilim Kurgu')">Bilim Kurgu</button>
+<button onclick="filtrele('Animasyon')">Animasyon</button>
+<button onclick="filtrele('Fantastik')">Fantastik</button>
+<button onclick="filtrele('Romantik Komedi')">Romantik Komedi</button>
+<button onclick="filtrele('Bilim Kurgu')">Bilim Kurgu</button>
+<button onclick="filtrele('Korku')">Korku</button>
+<button onclick="filtrele('Macera')">Macera</button>
+</section>
+<section class="arama-alani">
+    <input 
+        type="text" 
+        id="aramaInput" 
+        placeholder="Film veya dizi ara..."
+        onkeyup="aramaYap()"
+    >
+</section>
+
+    <main id="icerik-alani">
+        
+<main id="icerik-alani"></main>
+<script src="script.js"></script>
+</body>
+</html>
